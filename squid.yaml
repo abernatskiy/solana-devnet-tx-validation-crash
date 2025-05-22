@@ -5,8 +5,6 @@ build:
 deploy:
   addons:
     postgres: 
-    rpc:
-      - solana.http
   processor:
     env:
       SOLANA_NODE: https://api.mainnet-beta.solana.com
