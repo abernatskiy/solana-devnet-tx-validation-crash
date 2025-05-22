@@ -9,7 +9,7 @@ deploy:
       - solana.http
   processor:
     env:
-      SOLANA_NODE: ${{ addons.rpc.solana.http }}
+      SOLANA_NODE: https://api.mainnet-beta.solana.com
     cmd:
       - node
       - lib/main.js
